@@ -11,10 +11,8 @@ var  height  =  180;
 }
 console.log(height);  //  ->  180
 console.log(weight);  //  ->  70
-function testfunction(){
-    console.log("Hello")
-    console.log("Bestie")
-}
+console.log("Hello")
+console.log("Bestie")
 console.log("season:");  //  ->   season:
 console.log("winter");  //  ->  winter
 console.log("rainy");  //  ->  rainy
