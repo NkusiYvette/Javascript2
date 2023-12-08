@@ -1,13 +1,11 @@
-
-let avg = 0; let i = 0; let age = 0; let sum = 0;
-let nbr = prompt("Enter number of student:");
-
-for (i, i < nbr; i++;){
-
-age = Number(prompt("Enter age:"));
-sum +=age;
+let student = [];
+let sumAge = 0;
+let avgAge = 0;
+for (let i = 0; i <= 10; i++){
+    let age = prompt("enter your age");
+    let userAge = Number(age);
+    student.push(userAge);
+    sumAge += student[i];
+    avgAge = sumAge/student.length;
 }
-
-avg = sum/i;
-
-console.log("the avg = " +avg);
+alert("the average :" + avgAge);
