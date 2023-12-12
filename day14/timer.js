@@ -1,4 +1,21 @@
-function BossBabes(){
-    console.log("Hello guys this is KBB");
+// function BossBabes(){
+//     console.log("Hello guys this is KBB");
+// }
+// setTimeout(BossBabes,100); 
+//interval
+let count = 0;
+function increment(){
+    count++;
+    console.log(count);
 }
-setTimeout(BossBabes,100);
+setInterval(increment, 100);
+
+//cleartimeout
+
+function greet() {
+    console.log("Hello world");
+  }
+  const timeoutID = setTimeout(greet, 2000);
+  clearTimeout(
+    timeoutID
+  ); 
