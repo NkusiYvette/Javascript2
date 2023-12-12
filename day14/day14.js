@@ -23,3 +23,14 @@
 for(let i =0; i<= 10; i++){
     console.log(i);
 }
+
+let name = "Uwimpaye";
+function checklength(){
+    if(name.length <5)
+    console.log("it is short");
+    else{
+    console.log("it is long");
+    }
+}
+checklength();
+
