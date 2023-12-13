@@ -3,21 +3,28 @@ switch(momo){
     case 1 :
     alert ("send money");
     if (momo==1){
-       let = Number(prompt("send momo user"));
+       let momo = Number(prompt("enter new choice: 1,2,3,4,5,"));
        switch(momo){
         case 1 :
         alert("Momo user");
+    if (momo==1){
+        let momo = Number(prompt("enter mobile number: 07XXXXXXX"));
+        let name = "yvette uwimpaye";
+        alert("Enter amount of money to send to"+ momo+ ","+ name);
+
+    }
+
         break;
-        case 1 :
+        case 2 :
         alert("send e-cash");
         break;
-        case 1 :
+        case 3 :
         alert("send abroad");
         break;
-        case 1 :
+        case 4 :
         alert("Tesha agaciro");
         break;
-        case 1 :
+        case 5 :
         alert("Erekana umubare gihamya");
         break;
     default:
