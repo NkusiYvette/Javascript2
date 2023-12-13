@@ -11,7 +11,8 @@ switch(momo){
         let momo = Number(prompt("enter mobile number: 07XXXXXXX"));
         let name = "yvette uwimpaye";
         alert("Enter amount of money to send to"+ momo+ ","+ name);
-
+        prompt("Enter amount");
+        alert("press enter to send");
     }
 
         break;
@@ -28,7 +29,7 @@ switch(momo){
         alert("Erekana umubare gihamya");
         break;
     default:
-        alert("invalid momo user");
+        alert("invalid momo user"); 
        }
     }
     break;
