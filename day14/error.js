@@ -1,5 +1,5 @@
 try{
     let a = b;
-}catch{
-    console.log("error");
+}catch(e){
+    console.log("error :"+e);
 }
